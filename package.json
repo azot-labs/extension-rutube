@@ -1,6 +1,6 @@
 {
   "name": "rutube",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Vitaly Gashkov <vitalygashkov@vk.com>",
   "description": "Russian online service for hosting and watching videos",
   "config": {
