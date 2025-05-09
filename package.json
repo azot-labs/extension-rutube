@@ -34,8 +34,7 @@
   },
   "devDependencies": {
     "@streamyx/api": "^0.2.8",
-    "@streamyx/core": "^2.3.2",
-    "@types/node": "^22.10.1",
-    "typescript": "^5.7.2"
+    "@types/node": "^22.15.17",
+    "typescript": "^5.8.3"
   }
 }
