@@ -1,39 +1,33 @@
 {
   "name": "rutube",
   "version": "0.0.3",
-  "author": "Vitaly Gashkov <vitalygashkov@vk.com>",
-  "description": "Russian online service for hosting and watching videos",
+  "homepage": "https://rutube.ru/",
   "config": {
-    "iconUrl": "https://play-lh.googleusercontent.com/_FBmOBmM0tU2TUjcvPSX8MDl5ij91wND-VSzsNUfgOT7gkIqLJngsQHRRcBgxEcxIQ=w480-h960-rw"
+    "title": "RUTUBE",
+    "icon": "https://static.rustore.ru/imgproxy/vcyBc0LG-3ybXcGs_-_OJXH9ULjoegHlLs-DacemG08/preset:app_card_icon/aHR0cHM6Ly9zdGF0aWMucnVzdG9yZS5ydS9hcGsvMjQ2MjA3L2NvbnRlbnQvSUNPTi9hNTZhZWJlMy01NjVhLTRiZjYtOTQyZC0xZjE0OTk0YjlhNmUucG5n.webp"
   },
+  "keywords": [
+    "Video Hostings"
+  ],
+  "author": {
+    "name": "Streamyx",
+    "url": "https://streamyx.tv/"
+  },
+  "contributors": [
+    {
+      "name": "Vitaly Gashkov",
+      "email": "vitalygashkov@vk.com",
+      "url": "https://github.com/vitalygashkov"
+    }
+  ],
+  "license": "MIT",
   "main": "rutube.js",
   "files": [
     "rutube.js"
   ],
   "scripts": {},
-  "keywords": [
-    "streamyx",
-    "extension",
-    "rutube"
-  ],
-  "license": "MIT",
-  "private": true,
-  "readmeFilename": "README.md",
-  "funding": [
-    {
-      "type": "individual",
-      "url": "https://boosty.to/vitalygashkov"
-    },
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/vitalygashkov"
-    }
-  ],
-  "engines": {
-    "node": "20 || 21 || 22 || 23"
-  },
   "devDependencies": {
-    "@streamyx/api": "^0.2.8",
+    "@streamyx/api": "^0.2.10",
     "@types/node": "^22.15.17",
     "typescript": "^5.8.3"
   }
