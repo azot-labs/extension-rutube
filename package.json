@@ -26,6 +26,9 @@
     "rutube.js"
   ],
   "scripts": {},
+  "engines": {
+    "azot": ">=4.3.10"
+  },
   "devDependencies": {
     "@types/node": "^24.0.15",
     "azot": "^0.9.0-alpha.1",
