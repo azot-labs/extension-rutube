@@ -1,10 +1,8 @@
 'use strict';
 
-const { defineExtension } = require('@streamyx/api');
+const { defineExtension } = require('azot');
 
 module.exports = defineExtension({
-  name: 'rutube',
-  tag: 'RUTUBE',
   fetchContentMetadata: async (url) => {
     const patterns = [
       '/video/:id{/}?',
