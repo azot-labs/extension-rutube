@@ -21,11 +21,14 @@
     }
   ],
   "license": "MIT",
-  "main": "rutube.js",
+  "main": "dist/rutube.js",
   "files": [
-    "rutube.js"
+    "dist"
   ],
-  "scripts": {},
+  "scripts": {
+    "dev": "azt dev",
+    "build": "azt build"
+  },
   "engines": {
     "azot": ">=4.3.10"
   },
