@@ -1,8 +1,6 @@
-'use strict';
+import { defineExtension } from 'azot';
 
-const { defineExtension } = require('azot');
-
-module.exports = defineExtension({
+export default defineExtension({
   fetchContentMetadata: async (url) => {
     const patterns = [
       '/video/:id{/}?',
